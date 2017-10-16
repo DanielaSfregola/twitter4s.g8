@@ -1,5 +1,5 @@
 # $name$
-twitter4s service
-
+ twitter4s service
+ 
 ## Usage
-```sbt run```
+ ```sbt run```
