@@ -1,6 +1,7 @@
 import com.danielasfregola.twitter4s.TwitterRestClient
 import scala.concurrent.ExecutionContext.Implicits.global
 
+
 object RestExample extends App {
 
   // Make sure to define the following env variables:
@@ -12,6 +13,5 @@ object RestExample extends App {
     val tweets = ratedData.data
     tweets.foreach(tweet => println(tweet.text))
   }
-
 
 }
