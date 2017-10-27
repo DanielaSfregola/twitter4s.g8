@@ -23,3 +23,5 @@ export TWITTER_ACCESS_TOKEN_SECRET='my-access-secret'
 The sample project contains examples for both REST and streaming client. 
 
 Run the examples with ```sbt run``` and choose the main to run.
+
+Run template tests with ```sbt test```
