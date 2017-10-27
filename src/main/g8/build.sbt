@@ -9,6 +9,6 @@ lazy val twitter4s = "5.1"
 resolvers += Resolver.sonatypeRepo("releases")
 
 libraryDependencies ++= Seq(
-  "com.danielasfregola" %% "twitter4s" % "5.1",
-  "ch.qos.logback" % "logback-classic" % "1.1.9"
+  Library.twitter4s,
+  Library.logbackClassic
 )
