@@ -7,6 +7,6 @@ scalaVersion := "2.12.3"
 resolvers += Resolver.sonatypeRepo("releases")
 
 libraryDependencies ++= Seq(
-  Library.twitter4s,
-  Library.logbackClassic
+  "com.danielasfregola" %% "twitter4s" % "5.1",
+  "ch.qos.logback" % "logback-classic" % "1.1.9"
 )
