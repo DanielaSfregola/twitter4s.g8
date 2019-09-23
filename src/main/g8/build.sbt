@@ -2,7 +2,7 @@ name := "$name$"
 
 version := "1.0"
 
-scalaVersion := "2.12.3"
+scalaVersion := "2.12.10"
 
 resolvers += Resolver.sonatypeRepo("releases")
 
